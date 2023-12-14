@@ -6,6 +6,7 @@
 using namespace std;
 int number1 = 0;
 int number2 = 4;
+int number3 = 17;
 
 //enemigo1
 string enemy1 = "Ramon";
@@ -15,7 +16,7 @@ int enemyHP1 = 1000;
 string enemy2 = "Javi";
 int enemyHP2 = 100;
 
-void showParam(int& p1, int p2) {
+void showParam(int& p1, int p2, int p3) {
     p1 = 10;
     p2 = 50;
     number1 = 0;
